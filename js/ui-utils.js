@@ -79,7 +79,7 @@ function handleFullScreen()
     if (isInFullScreen)
         makeOverlay('fullscreen', 'hide');
     else
-        makeOverlay('fullscreen', 'hide');
+        makeOverlay('fullscreen', 'show');
 }
 
 function requestFullScreen()
